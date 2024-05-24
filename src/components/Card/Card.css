@@ -1,0 +1,90 @@
+.card {
+  margin: 20px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  /* gap: 10px; */
+}
+
+.plan {
+  all: unset;
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #b4b5b7;
+}
+
+.pricing {
+  all: unset;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.line {
+  width: 85%;
+  height: 1px;
+  background-color: rgb(215, 215, 215);
+  margin: 10px;
+}
+
+.features-container {
+  align-self: flex-start;
+  margin-left: 25px;
+}
+
+.feature {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+}
+
+.feature {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.feature-disabled {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+  color: #b4b5b7;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: #4ba2ff;
+  margin: 10px 0 20px 0;
+  padding: 5px;
+  width: 80%;
+  border-radius: 25px;
+  height: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #007aff;
+  transition: ease 0.3s;
+}
